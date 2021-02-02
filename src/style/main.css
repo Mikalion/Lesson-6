@@ -765,17 +765,17 @@ a:visited {
 }
 
 .card--project-bg {
-  background: url(../src/img/services/project.png) no-repeat;
+  background: url(../img/services/project.png) no-repeat;
   background-position: top 38px left 35px;
 }
 
 .card--structure-bg {
-  background: url(../src/img/services/structure.png) no-repeat;
+  background: url(../img/services/structure.png) no-repeat;
   background-position: top 38px left 35px;
 }
 
 .card--factory-bg {
-  background: url(../src/img/services/factory.png) no-repeat;
+  background: url(../img/services/factory.png) no-repeat;
   background-position: top 38px left 35px;
 }
 
