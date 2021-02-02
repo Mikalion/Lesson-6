@@ -1,0 +1,36 @@
+.wrap{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 80%;
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.ul{
+   list-style-type: none;
+}
+
+a,
+a:visited{
+   text-decoration: none;
+   color: unset;
+}
+
+.button{
+   width: 150px;
+   height: 40px;
+   font-size: 13px;
+   font-weight: 700;
+   color: #ffffff;
+   letter-spacing: 00.1vw;
+   text-transform: uppercase;
+   cursor: pointer;
+   outline: none;
+   border: none;
+   background-color: #48555b;
+}
+
+.button:hover{
+   background-color: #00a4e5;
+}

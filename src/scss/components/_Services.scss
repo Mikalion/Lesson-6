@@ -1,0 +1,59 @@
+.services{
+    padding: 0 8vw 15vh;
+}
+
+
+.services__inform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-title--left::before{
+    left: 0;
+}
+
+
+.services__text{
+    width: 24vw;
+    font-size: 11px;
+    color: #48555b;
+    line-height: 23px;
+}
+
+.services__box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+
+.card{
+    width: 20vw;
+    padding: 138px 1em 3em 2em;
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.card__title{
+    margin: 1.5vh 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(72, 85, 91, 1);
+    letter-spacing: 0.426667px;
+    text-align: left;
+}
+
+.card--project-bg {
+    background: url(/src/img/services/project.png) no-repeat;
+    background-position: top 38px left 35px;
+  }
+  
+  .card--structure-bg {
+    background: url(/src/img/services/structure.png) no-repeat;
+    background-position: top 38px left 35px;
+  }
+  
+  .card--factory-bg {
+    background: url(/src/img/services/factory.png) no-repeat;
+    background-position: top 38px left 35px;
+  }

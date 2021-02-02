@@ -1,0 +1,20 @@
+@import 'global/reset';
+@import 'global/app';
+
+@import 'components/header';
+@import 'components/nav';
+@import 'components/About';
+@import 'components/Get-in';
+@import 'components/Services';
+@import 'components/Signup';
+@import 'components/footer';
+
+
+
+
+
+
+
+
+// media всегда последний
+@import 'global/media';

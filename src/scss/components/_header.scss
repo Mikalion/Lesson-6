@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 4vh 0 5vw;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+
+
+    &--img {
+
+        background: url(../img/header/bg.png) no-repeat center center/cover;
+    }
+
+    .subtitle {
+        position: relative;
+        font-size: 30px;
+        font-weight: 300;
+        font-family: 'Bebas Neue', cursive;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .subtitle::before {
+        content: '';
+        top: 2px;
+        left: 84px;
+        position: absolute;
+        border-top: 10.2px solid transparent;
+        border-bottom: 10.2px solid transparent;
+        border-right: 10.2px solid #00a4e5;
+    }
+
+    .title {
+        font-size: 60px;
+        font-weight: 400;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 0.5vw;
+    }
+
+    &__text {
+        font-size: 16px;
+    }
+
+    .subject {
+        font-size: 11px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+
+
+
+
+
+
