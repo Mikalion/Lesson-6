@@ -765,17 +765,17 @@ a:visited {
 }
 
 .card--project-bg {
-  background: url(/src/img/services/project.png) no-repeat;
+  background: url(../src/img/services/project.png) no-repeat;
   background-position: top 38px left 35px;
 }
 
 .card--structure-bg {
-  background: url(/src/img/services/structure.png) no-repeat;
+  background: url(../src/img/services/structure.png) no-repeat;
   background-position: top 38px left 35px;
 }
 
 .card--factory-bg {
-  background: url(/src/img/services/factory.png) no-repeat;
+  background: url(../src/img/services/factory.png) no-repeat;
   background-position: top 38px left 35px;
 }
 
@@ -910,6 +910,32 @@ a:visited {
   line-height: 16px;
   letter-spacing: 0.85px;
   color: #ffffff;
+}
+
+.subtitle {
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  color: white;
+}
+
+.subtitle::before {
+  content: '';
+  top: 2px;
+  left: 84px;
+  position: absolute;
+  border-top: 10.2px solid transparent;
+  border-bottom: 10.2px solid transparent;
+  border-right: 10.2px solid #00a4e5;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.5vw;
 }
 
 @media (max-width: 768px) {
